@@ -1970,7 +1970,7 @@ RESPONSIVE
     .skills-flex-container {
       display: flex;
       flex-wrap: wrap;
-      gap:50px;
+      gap:30px;
       width: 100%;
   
       @media(max-width:700px) {
@@ -1980,7 +1980,7 @@ RESPONSIVE
         margin: auto;
       }  
       .box {
-        flex: 1 1 25%;
+        flex: 1 1 20%;
         box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 24px;
         padding: 25px;
         text-align: center;
