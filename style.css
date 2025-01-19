@@ -1975,8 +1975,9 @@ RESPONSIVE
   
       @media(max-width:700px) {
         gap: 30px;
-        display: grid
-;       place-content: center;
+        display: grid;
+        place-content: center;
+        margin: auto;
       }  
       .box {
         flex: 1 1 25%;
