@@ -1994,7 +1994,7 @@ RESPONSIVE
         }
   
         .title{
-          margin-top: 15px;
+          margin-top: 0 !important;
           text-align: center;
           font-weight: bold;
           color: #282A35;
@@ -2021,11 +2021,11 @@ RESPONSIVE
         }
         @media(max-width:630px) {
           flex: 1 0 80%;
-          padding: 15px;
+          padding:0 50px;
           .image {
   
             img{
-              max-width: 50px;
+              max-width: 75px;
             }
           }
         }
