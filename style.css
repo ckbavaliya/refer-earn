@@ -1965,7 +1965,7 @@ RESPONSIVE
   
   
   .skills {
-    padding: 75px 0px;
+    padding: 50px 0px;
   
     .skills-flex-container {
       display: flex;
@@ -1975,8 +1975,9 @@ RESPONSIVE
   
       @media(max-width:700px) {
         gap: 30px;
-      }
-  
+        display: grid
+;       place-content: center;
+      }  
       .box {
         flex: 1 1 25%;
         box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 24px;
@@ -2018,7 +2019,7 @@ RESPONSIVE
           flex: 1 0 25%;
         }
         @media(max-width:630px) {
-          flex: 1 0 100%;
+          flex: 1 0 80%;
           padding: 15px;
           .image {
   
