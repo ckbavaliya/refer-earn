@@ -2204,6 +2204,9 @@ aside .category li:last-child {
     cursor: pointer;
     background-color: transparent;
 }
-b{
+.b-red{
     color: red;
+}
+.b-green{
+    color: green;
 }
