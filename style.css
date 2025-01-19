@@ -2018,7 +2018,7 @@ RESPONSIVE
           flex: 1 0 25%;
         }
         @media(max-width:630px) {
-          flex: 1 0 35%;
+          flex: 1 0 100%;
           padding: 15px;
           .image {
   
